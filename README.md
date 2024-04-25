@@ -37,7 +37,7 @@ Lägg till länken till External och Internal Web page i koden:
 ```
    private WebView myWebView;
     public void showExternalWebPage(){
-        myWebView.loadUrl("file:///android_asset/index.html");
+        myWebView.loadUrl("https://www.his.se");
     }
 
     public void showInternalWebPage(){
@@ -72,10 +72,10 @@ Lägg till valet av External och Internal Web page i dropdown menyn:
 
 Bilder:
 Internal:
-![](Internal.png)
+![](InternalImg.png)
 
 External:
-![](External.png)
+![](ExternalImg.png)
 
 Aktivitet i Logcat:
 ![](Logcat.png)
